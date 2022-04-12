@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32127.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.Service", "Netwealth.Currency.Interview.Test.Service\Netwealth.Currency.Interview.Test.Service.csproj", "{1C899ECB-AB48-4E21-BAA4-C1AF9E5E9549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C899ECB-AB48-4E21-BAA4-C1AF9E5E9549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C899ECB-AB48-4E21-BAA4-C1AF9E5E9549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C899ECB-AB48-4E21-BAA4-C1AF9E5E9549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C899ECB-AB48-4E21-BAA4-C1AF9E5E9549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60B11F3C-583D-4C76-986E-167DDDB024CA}
+	EndGlobalSection
+EndGlobal
