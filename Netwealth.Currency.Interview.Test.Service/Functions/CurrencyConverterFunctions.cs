@@ -11,11 +11,11 @@ using System.Web.Http;
 
 namespace Netwealth.Currency.Interview.Test.Service
 {
-    public class CurrencyConverter
+    public class CurrencyConverterFunctions
     {
         private readonly IMediator _mediator;
 
-        public CurrencyConverter(
+        public CurrencyConverterFunctions(
             IMediator mediator)
         {
             _mediator = mediator;
@@ -38,14 +38,16 @@ namespace Netwealth.Currency.Interview.Test.Service
                 };
 
                 var response = await _mediator.Send(query).ConfigureAwait(false);
+
                 return new OkObjectResult(response);
             }
             catch (ValidationException ex)
             {
                 return new BadRequestObjectResult(ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine($"ConvertAmount function failed. Error message: {ex.Message}");
                 return new InternalServerErrorResult();
             }
         }

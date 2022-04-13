@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32127.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.Service", "Netwealth.Currency.Interview.Test.Service\Netwealth.Currency.Interview.Test.Service.csproj", "{1C899ECB-AB48-4E21-BAA4-C1AF9E5E9549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netwealth.Currency.Interview.Test.Service", "Netwealth.Currency.Interview.Test.Service\Netwealth.Currency.Interview.Test.Service.csproj", "{1C899ECB-AB48-4E21-BAA4-C1AF9E5E9549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.Business", "Netwealth.Currency.Interview.Test.Business\Netwealth.Currency.Interview.Test.Business.csproj", "{E5EDCAAC-E718-40B0-8CD1-C0E698925552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netwealth.Currency.Interview.Test.Business", "Netwealth.Currency.Interview.Test.Business\Netwealth.Currency.Interview.Test.Business.csproj", "{E5EDCAAC-E718-40B0-8CD1-C0E698925552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.Shared", "Netwealth.Currency.Interview.Test.Shared\Netwealth.Currency.Interview.Test.Shared.csproj", "{1FA82CC5-0006-49D8-885C-071E6D137E76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netwealth.Currency.Interview.Test.Shared", "Netwealth.Currency.Interview.Test.Shared\Netwealth.Currency.Interview.Test.Shared.csproj", "{1FA82CC5-0006-49D8-885C-071E6D137E76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1673504B-16E7-432B-B37C-3C81F98330F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.Service.Tests", "Netwealth.Currency.Interview.Test.Service.Tests\Netwealth.Currency.Interview.Test.Service.Tests.csproj", "{B2813479-EC26-4723-87BA-F7FD76DDB828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.Service.Shared", "Netwealth.Currency.Interview.Test.Service.Shared\Netwealth.Currency.Interview.Test.Service.Shared.csproj", "{AE8AC4B1-64C7-4CF1-8B1E-B05EB75A5CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.Business.Tests", "Netwealth.Currency.Interview.Test.Business.Tests\Netwealth.Currency.Interview.Test.Business.Tests.csproj", "{EAAF4850-5EE3-4DDE-9D7F-E98FB59DD039}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +35,26 @@ Global
 		{1FA82CC5-0006-49D8-885C-071E6D137E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FA82CC5-0006-49D8-885C-071E6D137E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FA82CC5-0006-49D8-885C-071E6D137E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2813479-EC26-4723-87BA-F7FD76DDB828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2813479-EC26-4723-87BA-F7FD76DDB828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2813479-EC26-4723-87BA-F7FD76DDB828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2813479-EC26-4723-87BA-F7FD76DDB828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8AC4B1-64C7-4CF1-8B1E-B05EB75A5CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8AC4B1-64C7-4CF1-8B1E-B05EB75A5CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8AC4B1-64C7-4CF1-8B1E-B05EB75A5CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8AC4B1-64C7-4CF1-8B1E-B05EB75A5CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAF4850-5EE3-4DDE-9D7F-E98FB59DD039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAF4850-5EE3-4DDE-9D7F-E98FB59DD039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAF4850-5EE3-4DDE-9D7F-E98FB59DD039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAF4850-5EE3-4DDE-9D7F-E98FB59DD039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2813479-EC26-4723-87BA-F7FD76DDB828} = {1673504B-16E7-432B-B37C-3C81F98330F3}
+		{AE8AC4B1-64C7-4CF1-8B1E-B05EB75A5CBC} = {1673504B-16E7-432B-B37C-3C81F98330F3}
+		{EAAF4850-5EE3-4DDE-9D7F-E98FB59DD039} = {1673504B-16E7-432B-B37C-3C81F98330F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {60B11F3C-583D-4C76-986E-167DDDB024CA}
